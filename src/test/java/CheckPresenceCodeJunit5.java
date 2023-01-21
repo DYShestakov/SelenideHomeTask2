@@ -6,7 +6,7 @@ import static com.codeborne.selenide.Selectors.*;
 
 public class CheckPresenceCodeJunit5 {
     @Test
-    void SuccessfulFindCodeJunit5() {
+    void successfulFindCodeJunit5() {
         //- Откройте страницу Selenide в Github
         open("https://github.com/selenide/selenide");
         //- Перейдите в раздел Wiki проекта
